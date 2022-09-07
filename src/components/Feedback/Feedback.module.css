@@ -1,0 +1,21 @@
+.div {
+    display: flex;
+    justify-content: center;
+    /* padding: 20px 0; */
+}
+
+.button {
+    width: 70px;
+    height: 35px;
+    background-color: rgb(29, 89, 180);
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 400;
+    letter-spacing: 0.8px;
+    border-radius: 5px;
+    border: none;
+}
+
+.button:not(:last-child) {
+    margin-right: 18px;
+}
